@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>area</title>
+  </head>
+  <div align="center">
+    <body text="black" bgcolor="orange">
+    <script type="text/javascript" >
+      var a,b,c;
+      a=prompt();
+      c=3.14*a*a;
+      b=2*3.14*a;
+      document.write("<br><h1> area of circle:"+c+"</br></h1>");
+        document.write("<br><h1>perimenter of circle:"+b+"</br></h1>");
+    </script>
+  </body></div>
+</html>
