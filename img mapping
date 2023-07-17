@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>img mapping</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+		h1 {
+			margin: 20px 0;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+	</style>
+</head>
+<body>
+<div class="container" align="center">
+	<h1>States of India</h1>
+	<img src="india-map.jpg" usemap="#states">
+	<map name="states">
+		<area shape="rect" coords="114,467,224,476" href="https://en.wikipedia.org/wiki/Maharashtra" alt="Maharashtra">
+		<area shape="rect" coords="63,382,102,389" href="https://en.wikipedia.org/wiki/Gujarat" alt="Gujarat">
+		<area shape="rect" coords="237,576,283,596" href="https://en.wikipedia.org/wiki/Andhra Pradesh" alt="Andhra Pradesh">
+		<area shape="rect" coords="602,236,650,210,655,229,617,247" href="https://en.wikipedia.org/wiki/Arunachal Pradesh" alt="Arunachal Pradesh">
+		<area shape="rect" coords="574,278,608,287" href="https://en.wikipedia.org/wiki/Assam" alt="Assam">
+		<area shape="rect" coords="421,296,454,305" href="https://en.wikipedia.org/wiki/Bihar" alt="Bihar">
+		<area shape="poly" coords="317,455,330,437,343,420,354,386" href="https://en.wikipedia.org/wiki/Chhattisgarh" alt="Chhattisgarh">
+		<area shape="rect" coords="127,578,143,582" href="https://en.wikipedia.org/wiki/Goa" alt="Goa">
+		<area shape="rect" coords="173,209,220,214" href="https://en.wikipedia.org/wiki/Haryana" alt="Haryana">
+		<area shape="rect" coords="197,130,250,154" href="https://en.wikipedia.org/wiki/Himachal Pradesh" alt="Himachal Pradesh">
+		<area shape="rect" coords="382,351,445,359" href="https://en.wikipedia.org/wiki/Jharkhand" alt="Jharkhand">
+		<area shape="rect" coords="149,597,209,606" href="https://en.wikipedia.org/wiki/Karnataka" alt="Karnataka">
+		<area shape="poly" coords="196,675,194,689,206,701,207,714" href="https://en.wikipedia.org/wiki/Kerala" alt="Kerala">
+		<area shape="rect" coords="200,385,300,392" href="https://en.wikipedia.org/wiki/Madhya Pradesh" alt="Madhya Pradesh">
+		<area shape="rect" coords="603,336,650,344" href="https://en.wikipedia.org/wiki/Manipur" alt="Manipur">
+		<area shape="rect" coords="521,311,586,319" href="https://en.wikipedia.org/wiki/Meghalaya" alt="Meghalaya">
+		<area shape="rect" coords="587,370,637,377" href="https://en.wikipedia.org/wiki/Mizoram" alt="Mizoram">
+		<area shape="rect" coords="628,282,683,288" href="https://en.wikipedia.org/wiki/Nagaland" alt="Nagaland">
+		<area shape="rect" coords="374,440,414,448" href="https://en.wikipedia.org/wiki/Odisha" alt="Odisha">
+		<area shape="rect" coords="166,161,205,170" href="https://en.wikipedia.org/wiki/Punjab" alt="Punjab">
+		<area shape="rect" coords="92,273,173,304" href="https://en.wikipedia.org/wiki/Rajasthan" alt="Rajasthan">
+		<area shape="rect" coords="459,241,501,253" href="https://en.wikipedia.org/wiki/Sikkim" alt="Sikkim">
+		<area shape="rect" coords="210,676,277,687" href="https://en.wikipedia.org/wiki/Tamil Nadu" alt="Tamil Nadu">
+		<area shape="rect" coords="237,500,302,511" href="https://en.wikipedia.org/wiki/Telangana" alt="Telangana">
+		<area shape="rect" coords="521,359,568,370" href="https://en.wikipedia.org/wiki/Tripura" alt="Tripura">
+		<area shape="rect" coords="240,255,340,270" href="https://en.wikipedia.org/wiki/Uttar Pradesh" alt="Uttar Pradesh">
+		<area shape="rect" coords="229,194,317,206" href="https://en.wikipedia.org/wiki/Uttarakhand" alt="Uttarakhand">
+		<area shape="poly" coords="460,351,453,373,495,374,490,351" href="https://en.wikipedia.org/wiki/West Bengal" alt="West Bengal">
+	</map>
+</div>
+</body>
+</html>
